@@ -1,0 +1,29 @@
+body {
+    background-color: yellow;
+    margin-left: calc(0.5vw + 1.5rem);
+    margin-right: calc(0.5vw + 1.5rem);
+}
+
+p {
+    font-size: larger;
+    font-family: papyrus, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: greenyellow;
+}
+
+a {
+    text-decoration: none;
+}
+
+.dette {
+    color: black;
+    background-color: cyan;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 100px;
+    border-radius: 0.1rem;
+    outline-style: dotted;
+    outline-color: red;
+    outline-width: 0.4rem;
+}
