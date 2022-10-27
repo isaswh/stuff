@@ -5,7 +5,7 @@ body {
 }
 
 p {
-    font-size: larger;
+    font-size: calc(1vw + 0.6rem);
     font-family: papyrus, sans-serif;
     font-weight: bold;
     text-align: center;
@@ -21,6 +21,7 @@ a {
     background-color: cyan;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 10px;
     padding: 100px;
     border-radius: 0.1rem;
     outline-style: dotted;
