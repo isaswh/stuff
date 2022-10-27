@@ -1,0 +1,41 @@
+/*definerer hvordan bokser rundt linker til kop-prosjekter ser ut*/
+.kop_project {
+    padding: 20px;
+    background-color: var(--kop-pr-btn-color);
+    text-align: center;
+    border-radius: 1vh;
+}
+
+/*definerer hva som skjer når du hovrer over bokser til kop-prosjekter*/
+.kop_project:hover {
+    background-color: var(--kop-pr-btn-hover-color);
+}
+
+/*definerer hvordan bokser rundt linker til poh-prosjekter ser ut*/
+.poh_project {
+    padding: 20px;
+    background-color: var(--poh-pr-btn-color);
+    text-align: center;
+    border-radius: 1vh;
+    font-family: var(--site-font);
+}
+
+/*definerer hva som skjer når du hovrer over bokser til poh-prosjekter*/
+.poh_project:hover {
+    background-color: var(--poh-pr-btn-hover-color);
+}
+
+/*definerer hvordan selve linken til prosjekter ser ut*/
+.poh_project_link {
+    color: var(--poh-pr-navbar-text-color);
+    text-decoration: none;
+    font-family: var(--site-font);
+    font-weight: var(--link-font-weight);
+}
+
+.kop_project_link {
+    color: var(--kop-pr-navbar-text-color);
+    text-decoration: none;
+    font-family: var(--site-font);
+    font-weight: var(--link-font-weight);
+}
