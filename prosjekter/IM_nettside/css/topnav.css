@@ -72,5 +72,5 @@
 
 .kop_page_link:hover {
     background-color: var(--kop-pr-navbar-background-color) !important;
-    color: var(kop-pr-navbar-text-color) !important;
+    color: var(--kop-pr-navbar-text-color) !important;
 }
