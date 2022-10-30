@@ -1,0 +1,21 @@
+/*definerer sidens bakgrunnsfarge*/
+body {
+    background-color: var(--background-color);
+}
+
+/*definerer div'en som sidens innhold er i*/
+.content {
+    margin: 0% 8% 0% 8%;
+}
+
+/*definerer hvordan vanlig tekst ser ut*/
+p {
+    font-family: var(--site-font);
+    color: var(--text-color);
+}
+
+/*definerer hvordan overskrifter ser ut*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--site-font);
+    color: var(--text-color);
+}

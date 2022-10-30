@@ -1,0 +1,27 @@
+/*variabler*/
+:root {
+    /*font*/
+    --site-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --link-font-weight: bold;
+    --navbar-font-size: calc(1vw + 0.6rem);
+    
+    /*generelt utseende*/
+    --background-color: #2E3234;
+    --text-color: #F3F9E3;
+    --navbar-background-color: rgb(0, 189, 164);
+    --navbar-text-color: #2E3234;
+    --navbar-background-hover-color:#2E3234;
+    --navbar-text-hover-color: #F3F9E3;
+   
+    /*prod. og historiefortelling-spesifikt utseende*/
+    --poh-pr-btn-color: rgb(255, 200, 62);
+    --poh-pr-btn-hover-color: rgba(255, 200, 62, 0.9);
+    --poh-pr-navbar-background-color: rgb(255, 200, 62);
+    --poh-pr-navbar-text-color: #2E3234;
+   
+    /*konseptutvikling og programmering-spesifikt utseende*/
+    --kop-pr-btn-color: rgb(38, 129, 233);
+    --kop-pr-btn-hover-color: rgba(38, 129, 233, 0.9);
+    --kop-pr-navbar-background-color: rgb(38, 129, 233);
+    --kop-pr-navbar-text-color: #2A2729;
+}
