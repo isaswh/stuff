@@ -22,6 +22,8 @@
 /*definerer menyen som dropper ned*/
 .dropdown {
     overflow: hidden;
+    flex-grow: 1;
+    text-align: center;
 }
 
 /*definerer dropknappen*/
@@ -35,7 +37,6 @@
     font-family: var(--site-font);
     font-weight: var(--link-font-weight);
     margin: 0;
-    flex-grow: 1;
 }
 
 /*definerer hva som skal skje når man hovrer over linkene i navbaren*/
@@ -44,7 +45,7 @@
     color: var(--navbar-text-hover-color);
 }
 
-/*definerer linkene som dropper ned*/
+/*definerer det som dropper ned*/
 .dropdown_content {
     display: none;
     position: absolute;
@@ -63,6 +64,11 @@
 .dropdown:hover .dropdown_content {
     display: flex;
     flex-wrap: wrap;
+}
+
+.dropdown:hover .dropbtn, .dropdown:hover {
+    background-color: var(--kop-pr-navbar-background-hover-color);
+    color: var(--kop-pr-navbar-text-hover-color);
 }
 
 .poh_page_link:hover {

@@ -5,7 +5,7 @@
     background-color: var(--poh-pr-navbar-background-color);
     display: flex;
     margin: -8px;
-    justify-content: space-around;
+    justify-content: stretch;
     font-family: var(--site-font);
     font-weight: var(--link-font-weight);
 }
@@ -16,11 +16,15 @@
     font-size: var(--navbar-font-size);
     padding: 8px;
     text-decoration: none;
+    flex-grow: 1;
+    text-align: center;
 }
 
 /*definerer menyen som dropper ned*/
 .dropdown {
     overflow: hidden;
+    flex-grow: 1;
+    text-align: center;
 }
 
 /*definerer dropknappen*/
@@ -63,3 +67,7 @@
     flex-wrap: wrap;
 }
 
+.dropdown:hover .dropbtn, .dropdown:hover {
+    background-color: var(--kop-pr-navbar-background-hover-color);
+    color: var(--kop-pr-navbar-text-hover-color);
+}

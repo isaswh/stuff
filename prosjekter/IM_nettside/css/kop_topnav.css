@@ -1,29 +1,28 @@
-
-/*definerer selve navbaren*/
 .topnav {
     overflow: hidden;
     background-color: var(--kop-pr-navbar-background-color);
     display: flex;
     margin: -8px;
-    justify-content: space-around;
+    justify-content: stretch;
     font-family: var(--site-font);
     font-weight: var(--link-font-weight);
 }
 
-/*definerer linkene i navbaren*/
 .topnav a {
     color: var(--kop-pr-navbar-text-color);
     font-size: var(--navbar-font-size);
     padding: 8px;
     text-decoration: none;
+    flex-grow: 1;
+    text-align: center;
 }
 
-/*definerer menyen som dropper ned*/
 .dropdown {
     overflow: hidden;
+    flex-grow: 1;
+    text-align: center;
 }
 
-/*definerer dropknappen*/
 .dropdown .dropbtn {
     font-size: var(--navbar-font-size);
     border: none;
@@ -33,16 +32,8 @@
     background-color: var(--kop-pr-navbar-background-color);
     font-family: var(--site-font);
     font-weight: var(--link-font-weight);
-    margin: 0;
 }
 
-/*definerer hva som skal skje når man hovrer over linkene i navbaren*/
-.topnav a:hover {
-    background-color: var(--navbar-background-hover-color);
-    color: var(--navbar-text-hover-color);
-}
-
-/*definerer linkene som dropper ned*/
 .dropdown_content {
     display: none;
     position: absolute;
@@ -52,14 +43,22 @@
     z-index: 1;
 }
 
-/*definerer hvordan linkene i dropdownen ser ut*/
 .dropdown-content a {
     color: var(--kop-pr-navbar-text-color);
     text-decoration: none;
-    text-align: left;
 }
 
 .dropdown:hover .dropdown_content {
     display: flex;
     flex-wrap: wrap;
+}
+
+.topnav a:hover {
+    background-color: var(--navbar-background-hover-color);
+    color: var(--navbar-text-hover-color);
+}
+
+.dropdown:hover .dropbtn, .dropdown:hover {
+    background-color: var(--kop-pr-navbar-background-hover-color);
+    color: var(--kop-pr-navbar-text-hover-color);
 }
