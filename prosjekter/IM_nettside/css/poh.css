@@ -1,0 +1,87 @@
+.topnav {
+    overflow: hidden;
+    background-color: var(--poh-nb-bg-color);
+    display: flex;
+    margin: -8px;
+    justify-content: stretch;
+    font-family: var(--site-font-fam);
+    font-weight: var(--link-font-weight);
+}
+
+.topnav a {
+    color: var(--poh-nb-font-color);
+    font-size: var(--nb-font-size);
+    padding: 8px;
+    text-decoration: none;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.dropdown {
+    overflow: hidden;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.dropdown .dropbtn {
+    font-size: var(--nb-font-size);
+    border: none;
+    outline: none;
+    color: var(--poh-nb-font-color);
+    padding: 8px;
+    background-color: var(--poh-nb-bg-color);
+    font-family: var(--site-font-fam);
+    font-weight: var(--link-font-weight);
+}
+
+.dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: var(--poh-nb-bg-color);
+    min-width: 200px;
+    box-shadow: var(--box-shadow);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: var(--poh-nb-font-color);
+    text-decoration: none;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown_content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.topnav a:hover {
+    background-color: var(--nb-bg-hov-color);
+    color: var(--nb-font-hov-color);
+}
+
+.dropdown:hover .dropbtn, .dropdown:hover {
+    background-color: var(--poh-nb-bg-hov-color);
+    color: var(--poh-nb-font-hov-color);
+}
+
+/*definerer hvordan bokser rundt linker til poh-prosjekter ser ut*/
+.poh_project {
+    padding: 20px;
+    background-color: var(--poh-btn-color);
+    text-align: center;
+    border-radius: 1vh;
+    font-family: var(--site-font-fam);
+}
+
+/*definerer hva som skjer når du hovrer over bokser til poh-prosjekter*/
+.poh_project:hover {
+    background-color: var(--poh-btn-hov-color);
+}
+
+/*definerer hvordan selve linken til prosjekter ser ut*/
+.poh_project_link {
+    color: var(--poh-nb-font-color) !important;
+    text-decoration: none;
+    font-family: var(--site-font-fam);
+    font-weight: var(--link-font-weight);
+}
