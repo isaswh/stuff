@@ -1,61 +1,55 @@
-/*definerer selve navbaren*/
 .topnav {
     overflow: hidden;
-    background-color: var(--navbar-background-color);
+    background-color: var(--nb-bg-color);
     display: flex;
     margin: -8px;
     justify-content: stretch;
-    font-family: var(--site-font);
+    font-family: var(--site-font-fam);
     font-weight: var(--link-font-weight);
 }
 
-/*definerer linkene i navbaren*/
 .topnav a {
-    color: var(--navbar-text-color);
-    font-size: var(--navbar-font-size);
+    color: var(--nb-font-color);
+    font-size: var(--nb-font-size);
     padding: 8px;
     text-decoration: none;
     flex-grow: 1;
     text-align: center;
 }
 
-/*definerer menyen som dropper ned*/
+.topnav a:hover {
+    background-color: var(--nb-bg-hov-color);
+    color: var(--nb-font-hov-color);
+}
+
+
 .dropdown {
     overflow: hidden;
     flex-grow: 1;
     text-align: center;
 }
 
-/*definerer dropknappen*/
 .dropdown .dropbtn {
-    font-size: var(--navbar-font-size);
+    font-size: var(--nb-font-size);
     border: none;
     outline: none;
-    color: var(--navbar-text-color);
+    color: var(--nb-font-color);
     padding: 8px;
-    background-color: var(--navbar-background-color);
-    font-family: var(--site-font);
+    background-color: var(--nb-bg-color);
+    font-family: var(--site-font-fam);
     font-weight: var(--link-font-weight);
     margin: 0;
 }
 
-/*definerer hva som skal skje når man hovrer over linkene i navbaren*/
-.topnav a:hover {
-    background-color: var(--navbar-background-hover-color);
-    color: var(--navbar-text-hover-color);
-}
-
-/*definerer det som dropper ned*/
 .dropdown_content {
     display: none;
     position: absolute;
-    background-color: var(--navbar-background-color);
+    background-color: var(--nb-bg-color);
     min-width: 100px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: var(--box-shadow);
     z-index: 1;
 }
 
-/*definerer hvordan linkene i dropdownen ser ut*/
 .dropdown-content a {
     text-decoration: none;
     text-align: left;
@@ -67,16 +61,17 @@
 }
 
 .dropdown:hover .dropbtn, .dropdown:hover {
-    background-color: var(--kop-pr-navbar-background-hover-color);
-    color: var(--kop-pr-navbar-text-hover-color);
+    background-color: var(--nb-bg-hov-color);
+    color: var(--nb-font-hov-color);
 }
 
+/*remove these*/
 .poh_page_link:hover {
-    background-color: var(--navbar-background-hover-color) !important;
-    color: var(--poh-pr-navbar-background-color) !important;
+    background-color: var(--nb-bg-hov-color) !important;
+    color: var(--poh-nb-bg-color) !important;
 }
 
 .kop_page_link:hover {
-    background-color: var(--navbar-background-hover-color) !important;
-    color: var(--kop-pr-navbar-background-color) !important;
+    background-color: var(--nb-bg-hov-color) !important;
+    color: var(--kop-nb-bg-color) !important;
 }

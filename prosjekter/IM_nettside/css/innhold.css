@@ -1,6 +1,6 @@
-/*definerer sidens bakgrunnsfarge*/
+/*sidens bakgrunnsfarge*/
 body {
-    background-color: var(--background-color);
+    background-color: var(--gen-bg-color);
 }
 
 /*div'en som sidens innhold er i*/
@@ -8,18 +8,42 @@ body {
     margin: 0% 8% 0% 8%;
 }
 
-.content a {
-    color: var(--text-color);
+.content a, .content img, .content p, .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+    font-family: var(--site-font-fam);
+    color: var(--gen-font-color);
 }
 
-/*vanlig tekst*/
-p {
-    font-family: var(--site-font);
-    color: var(--text-color);
+.content img {
+    height: auto;
+    width: 100%;
+    max-height: 65vh;
+    max-width: 48vh;
+    /*height: 70vh;
+    width: 80vw;
+    /max-height: calc(532px);
+    max-width: 400px;*/
 }
 
-/*overskrifter*/
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--site-font);
-    color: var(--text-color);
+
+/*fancy tekstboks på noen av sidene*/
+.fancy_boks {
+    background-color: var(--fb-bg-color);
+    border-radius: 4px;
+    font-family: var(--site-font-fam);
+    font-weight: bold;
+    padding: 1vw;
 }
+
+.fancy_boks p, .fancy_boks a, .fancy_boks h1, .fancy_boks h2, .fancy_boks h3, .fancy_boks h4, .fancy_boks h5, .fancy_boks h6 {
+    color: var(--fb-font-color)
+}
+
+/* det jeg skal legge til
+.tilhoyre {
+
+}
+
+.tilvenstre {
+
+}
+*/
