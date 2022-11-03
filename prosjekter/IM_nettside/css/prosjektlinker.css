@@ -1,4 +1,4 @@
-/*definerer hvordan bokser rundt linker til kop-prosjekter ser ut*/
+/*bokser rundt linker til kop-prosjekter*/
 .kop_project {
     padding: 20px;
     background-color: var(--kop-pr-btn-color);

@@ -54,8 +54,8 @@
 }
 
 .topnav a:hover {
-    background-color: var(--navbar-background-hover-color);
-    color: var(--navbar-text-hover-color);
+    background-color: var(--kop-pr-navbar-background-hover-color);
+    color: var(--kop-pr-navbar-text-hover-color);
 }
 
 .dropdown:hover .dropbtn, .dropdown:hover {

@@ -72,11 +72,11 @@
 }
 
 .poh_page_link:hover {
-    background-color: var(--poh-pr-navbar-background-color) !important;
-    color: var(--poh-pr-navbar-text-color) !important;
+    background-color: var(--navbar-background-hover-color) !important;
+    color: var(--poh-pr-navbar-background-color) !important;
 }
 
 .kop_page_link:hover {
-    background-color: var(--kop-pr-navbar-background-color) !important;
-    color: var(--kop-pr-navbar-text-color) !important;
+    background-color: var(--navbar-background-hover-color) !important;
+    color: var(--kop-pr-navbar-background-color) !important;
 }
