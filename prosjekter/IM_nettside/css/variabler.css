@@ -29,11 +29,11 @@
    
     /*konseptutvikling og programmering-spesifikt utseende*/
     --kop-prim-color: rgb(38, 129, 233);
-    --kop-acc-color: rgb(42, 39, 41);
+    --kop-link-color: rgb(42, 39, 41);
     --kop-btn-color: var(--kop-prim-color);
     --kop-btn-hov-color: rgba(38, 129, 233, 0.9);
     --kop-nb-bg-color: var(--kop-prim-color);
-    --kop-nb-font-color: var(--kop-acc-color);
+    --kop-nb-font-color: var(--kop-link-color);
     --kop-nb-bg-hov-color: var(--nb-bg-hov-color);
     --kop-nb-font-hov-color: var(--nb-font-hov-color);
 }

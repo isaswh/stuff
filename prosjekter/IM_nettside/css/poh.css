@@ -1,3 +1,4 @@
+/*selve navbaren*/
 .topnav {
     overflow: hidden;
     background-color: var(--poh-nb-bg-color);
@@ -55,8 +56,8 @@
 }
 
 .topnav a:hover {
-    background-color: var(--nb-bg-hov-color);
-    color: var(--nb-font-hov-color);
+    background-color: var(--poh-nb-bg-hov-color);
+    color: var(--poh-nb-font-hov-color);
 }
 
 .dropdown:hover .dropbtn, .dropdown:hover {
@@ -64,7 +65,6 @@
     color: var(--poh-nb-font-hov-color);
 }
 
-/*definerer hvordan bokser rundt linker til poh-prosjekter ser ut*/
 .poh_project {
     padding: 20px;
     background-color: var(--poh-btn-color);
@@ -73,12 +73,10 @@
     font-family: var(--site-font-fam);
 }
 
-/*definerer hva som skjer når du hovrer over bokser til poh-prosjekter*/
 .poh_project:hover {
     background-color: var(--poh-btn-hov-color);
 }
 
-/*definerer hvordan selve linken til prosjekter ser ut*/
 .poh_project_link {
     color: var(--poh-nb-font-color) !important;
     text-decoration: none;

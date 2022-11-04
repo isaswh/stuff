@@ -64,14 +64,3 @@
     background-color: var(--nb-bg-hov-color);
     color: var(--nb-font-hov-color);
 }
-
-/*remove these*/
-.poh_page_link:hover {
-    background-color: var(--nb-bg-hov-color) !important;
-    color: var(--poh-nb-bg-color) !important;
-}
-
-.kop_page_link:hover {
-    background-color: var(--nb-bg-hov-color) !important;
-    color: var(--kop-nb-bg-color) !important;
-}

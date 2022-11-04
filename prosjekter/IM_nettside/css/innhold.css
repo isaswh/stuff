@@ -1,5 +1,5 @@
 /*sidens bakgrunnsfarge*/
-body {
+body/*[virker ikke] :not(.topnav, .dropdown)*/ {
     background-color: var(--gen-bg-color);
 }
 
@@ -18,14 +18,10 @@ body {
     width: 100%;
     max-height: 65vh;
     max-width: 48vh;
-    /*height: 70vh;
-    width: 80vw;
-    /max-height: calc(532px);
-    max-width: 400px;*/
 }
 
 
-/*fancy tekstboks på noen av sidene*/
+/*foreløpig hvit tekstboks på noen av sidene*/
 .fancy_boks {
     background-color: var(--fb-bg-color);
     border-radius: 4px;
@@ -38,7 +34,7 @@ body {
     color: var(--fb-font-color)
 }
 
-/* det jeg skal legge til
+/* legg til at some point
 .tilhoyre {
 
 }
