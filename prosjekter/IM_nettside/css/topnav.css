@@ -1,5 +1,5 @@
+/*vanlig navbar*/
 .topnav {
-    overflow: hidden;
     background-color: var(--nb-bg-color);
     display: flex;
     margin: -8px;
@@ -8,6 +8,7 @@
     font-weight: var(--link-font-weight);
 }
 
+/*linker i navbar + hover effekt*/
 .topnav a {
     color: var(--nb-font-color);
     font-size: var(--nb-font-size);
@@ -22,7 +23,7 @@
     color: var(--nb-font-hov-color);
 }
 
-
+/*dropdown + hover*/
 .dropdown {
     overflow: hidden;
     flex-grow: 1;

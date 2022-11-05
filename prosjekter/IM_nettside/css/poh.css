@@ -1,6 +1,5 @@
 /*selve navbaren*/
 .topnav {
-    overflow: hidden;
     background-color: var(--poh-nb-bg-color);
     display: flex;
     margin: -8px;

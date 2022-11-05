@@ -1,5 +1,5 @@
 /*sidens bakgrunnsfarge*/
-body/*[virker ikke] :not(.topnav, .dropdown)*/ {
+body:not(.topnav, .dropdown .dropbtn) {
     background-color: var(--gen-bg-color);
 }
 
@@ -13,6 +13,7 @@ body/*[virker ikke] :not(.topnav, .dropdown)*/ {
     color: var(--gen-font-color);
 }
 
+/*bildet i om meg*/
 .content img {
     height: auto;
     width: 100%;
@@ -21,7 +22,7 @@ body/*[virker ikke] :not(.topnav, .dropdown)*/ {
 }
 
 
-/*foreløpig hvit tekstboks på noen av sidene*/
+/*hvit tekstboks på noen av sidene*/
 .fancy_boks {
     background-color: var(--fb-bg-color);
     border-radius: 4px;

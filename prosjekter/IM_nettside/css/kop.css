@@ -1,5 +1,4 @@
 .topnav {
-    overflow: hidden;
     background-color: var(--kop-nb-bg-color);
     display: flex;
     margin: -8px;
@@ -71,7 +70,7 @@
     border-radius: 1vh;
 }
 
-/*definerer hva som skjer når du hovrer over bokser til kop-prosjekter*/
+/*hover effekt*/
 .kop_project:hover {
     background-color: var(--kop-btn-hov-color);
 }
