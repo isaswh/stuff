@@ -1,0 +1,33 @@
+body {
+    margin: auto;
+    background-image: url(../media/photos/snowman-christmas-background-new.jpg);
+    background-size: 100%;
+}
+
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: darkslategrey;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.grid-container a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 3px solid rgb(255, 255, 255) ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(150, 30, 30);
+    text-align: center;
+    padding: 20px;
+    border-radius: 2px;
+}
