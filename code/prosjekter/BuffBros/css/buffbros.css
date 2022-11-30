@@ -1,0 +1,73 @@
+/*variabler*/
+:root {
+    /*general*/
+    --font-family: Arial, Helvetica, sans-serif;
+    --gen-bg-color: rgba(0, 0, 0, 0.9);
+    --gen-font-color: rgb(200, 200, 200);
+    --quote-font-color: rgb(255, 0, 0, 0.7);
+    --border-color: var(--nb-logo-color);
+
+    /*navbar*/
+    --nb-bg-color: rgba(0, 0, 0, 0.2);
+    --nb-bg-hov-color: rgba(255, 0, 0, 0.7);
+    --nb-logo-color: rgb(255, 0, 0);
+}
+
+/*navbar*/
+.navbar {
+    background-color: var(--nb-bg-color);
+    margin: -8px;
+    display: flex;
+    justify-content: stretch;
+    border-bottom: solid 1px var(--border-color);
+}
+
+.navbar a {
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-weight: bold;
+    color: var(--gen-font-color);
+    padding: 8px;
+    border-bottom: solid 1px var(--nb-border-color);
+    flex-grow: 1;
+    text-align: center;
+    margin: 0%;
+}
+
+.navbar a:hover:not(.navbar .nblogo) {
+    background-color: var(--nb-bg-hov-color);
+}
+
+/*general*/
+body {
+    background: var(--gen-bg-color);
+}
+
+.content {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: var(--gen-font-color);
+    font-family: var(--font-family);
+}
+
+b {
+    color: var(--quote-font-color);
+}
+
+/*home*/
+.quote {
+    color: var(--quote-font-color);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+/*about us*/
+.buffteam {
+    background-color: rgb(0, 0, 0, 0.2);
+    outline: solid 1px var(--border-color);
+    border-radius: 2px;
+}
+
+.buffteam h2, .buffteam p {
+    padding: 4px 8px 4px 8px;
+}
