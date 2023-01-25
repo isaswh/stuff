@@ -21,11 +21,263 @@
         er hvor du vil være
     </p>
 
+    <p>
+        from sense_hat import SenseHat
+        import time
+        
+        s = SenseHat()
+        
+        red = (255, 0, 0)
+        blue = (0, 0, 255)
+        
+        def frame_1():
+            r = red
+            b = blue
+            logo = [
+            r, r, r, r, r, r, r, r,
+            r, r, r, r, r, r, r, r,
+            r, r, r, r, r, r, r, r,
+            r, r, r, r, r, r, r, r,
+            r, r, r, r, r, r, r, r,
+            r, r, r, r, r, r, r, r,
+            r, r, r, r, r, r, r, r,
+            r, r, r, r, r, r, r, r,
+            ]
+            return logo
+            
+        def frame_2():
+            r = red
+            b = blue
+            logo = [
+            b, r, r, r, r, r, r, r,
+            b, r, r, r, r, r, r, r,
+            b, r, r, r, r, r, r, r,
+            b, r, r, r, r, r, r, r,
+            b, r, r, r, r, r, r, r,
+            b, r, r, r, r, r, r, r,
+            b, r, r, r, r, r, r, r,
+            b, r, r, r, r, r, r, r,
+            ]
+            return logo
+            
+        def frame_3():
+            r = red
+            b = blue
+            logo = [
+            b, b, r, r, r, r, r, r,
+            b, b, r, r, r, r, r, r,
+            b, b, r, r, r, r, r, r,
+            b, b, r, r, r, r, r, r,
+            b, b, r, r, r, r, r, r,
+            b, b, r, r, r, r, r, r,
+            b, b, r, r, r, r, r, r,
+            b, b, r, r, r, r, r, r,
+            ]
+            return logo
+            
+        def frame_4():
+            r = red
+            b = blue
+            logo = [
+            b, b, b, r, r, r, r, r,
+            b, b, b, r, r, r, r, r,
+            b, b, b, r, r, r, r, r,
+            b, b, b, r, r, r, r, r,
+            b, b, b, r, r, r, r, r,
+            b, b, b, r, r, r, r, r,
+            b, b, b, r, r, r, r, r,
+            b, b, b, r, r, r, r, r,
+            ]
+            return logo
+            
+        def frame_5():
+            r = red
+            b = blue
+            logo = [
+            b, b, b, b, r, r, r, r,
+            b, b, b, b, r, r, r, r,
+            b, b, b, b, r, r, r, r,
+            b, b, b, b, r, r, r, r,
+            b, b, b, b, r, r, r, r,
+            b, b, b, b, r, r, r, r,
+            b, b, b, b, r, r, r, r,
+            b, b, b, b, r, r, r, r,
+            ]
+            return logo
+            
+        def frame_6():
+            r = red
+            b = blue
+            logo = [
+            b, b, b, b, b, r, r, r,
+            b, b, b, b, b, r, r, r,
+            b, b, b, b, b, r, r, r,
+            b, b, b, b, b, r, r, r,
+            b, b, b, b, b, r, r, r,
+            b, b, b, b, b, r, r, r,
+            b, b, b, b, b, r, r, r,
+            b, b, b, b, b, r, r, r,
+            ]
+            return logo
+            
+        def frame_7():
+            r = red
+            b = blue
+            logo = [
+            b, b, b, b, b, b, r, r,
+            b, b, b, b, b, b, r, r,
+            b, b, b, b, b, b, r, r,
+            b, b, b, b, b, b, r, r,
+            b, b, b, b, b, b, r, r,
+            b, b, b, b, b, b, r, r,
+            b, b, b, b, b, b, r, r,
+            b, b, b, b, b, b, r, r,
+            ]
+            return logo
+            
+        def frame_8():
+            r = red
+            b = blue
+            logo = [
+            b, b, b, b, b, b, b, r,
+            b, b, b, b, b, b, b, r,
+            b, b, b, b, b, b, b, r,
+            b, b, b, b, b, b, b, r,
+            b, b, b, b, b, b, b, r,
+            b, b, b, b, b, b, b, r,
+            b, b, b, b, b, b, b, r,
+            b, b, b, b, b, b, b, r,
+            ]
+            return logo
+            
+        def frame_9():
+            r = red
+            b = blue
+            logo = [
+            b, b, b, b, b, b, b, b,
+            b, b, b, b, b, b, b, b,
+            b, b, b, b, b, b, b, b,
+            b, b, b, b, b, b, b, b,
+            b, b, b, b, b, b, b, b,
+            b, b, b, b, b, b, b, b,
+            b, b, b, b, b, b, b, b,
+            b, b, b, b, b, b, b, b,
+            ]
+            return logo
+            
+        def frame_10():
+            r = red
+            b = blue
+            logo = [
+            r, b, b, b, b, b, b, b,
+            r, b, b, b, b, b, b, b,
+            r, b, b, b, b, b, b, b,
+            r, b, b, b, b, b, b, b,
+            r, b, b, b, b, b, b, b,
+            r, b, b, b, b, b, b, b,
+            r, b, b, b, b, b, b, b,
+            r, b, b, b, b, b, b, b,
+            ]
+            return logo
+            
+        def frame_11():
+            r = red
+            b = blue
+            logo = [
+            r, r, b, b, b, b, b, b,
+            r, r, b, b, b, b, b, b,
+            r, r, b, b, b, b, b, b,
+            r, r, b, b, b, b, b, b,
+            r, r, b, b, b, b, b, b,
+            r, r, b, b, b, b, b, b,
+            r, r, b, b, b, b, b, b,
+            r, r, b, b, b, b, b, b,
+            ]
+            return logo
+            
+        def frame_12():
+            r = red
+            b = blue
+            logo = [
+            r, r, r, b, b, b, b, b,
+            r, r, r, b, b, b, b, b,
+            r, r, r, b, b, b, b, b,
+            r, r, r, b, b, b, b, b,
+            r, r, r, b, b, b, b, b,
+            r, r, r, b, b, b, b, b,
+            r, r, r, b, b, b, b, b,
+            r, r, r, b, b, b, b, b,
+            ]
+            return logo
+            
+        def frame_13():
+            r = red
+            b = blue
+            logo = [
+            r, r, r, r, b, b, b, b,
+            r, r, r, r, b, b, b, b,
+            r, r, r, r, b, b, b, b,
+            r, r, r, r, b, b, b, b,
+            r, r, r, r, b, b, b, b,
+            r, r, r, r, b, b, b, b,
+            r, r, r, r, b, b, b, b,
+            r, r, r, r, b, b, b, b,
+            ]
+            return logo
+            
+        def frame_14():
+            r = red
+            b = blue
+            logo = [
+            r, r, r, r, r, b, b, b,
+            r, r, r, r, r, b, b, b,
+            r, r, r, r, r, b, b, b,
+            r, r, r, r, r, b, b, b,
+            r, r, r, r, r, b, b, b,
+            r, r, r, r, r, b, b, b,
+            r, r, r, r, r, b, b, b,
+            r, r, r, r, r, b, b, b,
+            ]
+            return logo
+            
+        def frame_15():
+            r = red
+            b = blue
+            logo = [
+            r, r, r, r, r, r, b, b,
+            r, r, r, r, r, r, b, b,
+            r, r, r, r, r, r, b, b,
+            r, r, r, r, r, r, b, b,
+            r, r, r, r, r, r, b, b,
+            r, r, r, r, r, r, b, b,
+            r, r, r, r, r, r, b, b,
+            r, r, r, r, r, r, b, b,
+            ]
+            return logo
+            
+        def frame_16():
+            r = red
+            b = blue
+            logo = [
+            r, r, r, r, r, r, r, b,
+            r, r, r, r, r, r, r, b,
+            r, r, r, r, r, r, r, b,
+            r, r, r, r, r, r, r, b,
+            r, r, r, r, r, r, r, b,
+            r, r, r, r, r, r, r, b,
+            r, r, r, r, r, r, r, b,
+            r, r, r, r, r, r, r, b,
+            ]
+            return logo
+            
+        images = [frame_1, frame_2, frame_3, frame_4, frame_5, frame_6, frame_7, frame_8, frame_9, frame_10, frame_11, frame_12, frame_13, frame_14, frame_15, frame_16]
+        count = 0
+        
+        while True:
+          s.set_pixels(images[count % len(images)]())
+          time.sleep(0.01)
+          count += 1
+    </p>
 
-    <a href="prosjekter/adventcalendar/index.html">
-        <div class="hohoho">
-            HO HO HO! (click me pls)
-        </div>
-    </a>
 </body>
 </html>
