@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <a href="../../../index.html">back to main thing</a>
+    <br>
+    <a href="../directory.html">back to raspbery pi directory</a>
+
+    <h3>pac.py</h3>
+
+    <code>
+        <pre>
+            from sense_hat import SenseHat
+import time
+
+s = SenseHat()
+
+black = (0, 0, 0)
+yellow = (255, 255, 0)
+
+def frame_0():
+    b = black
+    y = yellow
+    pacman = [
+    b, b, y, y, y, b, b, b,
+    b, y, y, y, y, y, b, b,
+    y, y, y, y, y, b, b, b,
+    y, y, y, y, b, b, b, b,
+    y, y, y, y, y, b, b, b,
+    b, y, y, y, y, y, b, b,
+    b, b, y, y, y, b, b, b,
+    b, b, b, b, b, b, b, b,
+    ]
+    return pacman
+
+def frame_1():
+    b = black
+    y = yellow
+    pacman = [
+    b, b, y, y, y, b, b, b,
+    b, y, y, y, y, y, b, b,
+    y, y, y, y, y, b, b, b,
+    y, y, y, y, b, b, b, y,
+    y, y, y, y, y, b, b, b,
+    b, y, y, y, y, y, b, b,
+    b, b, y, y, y, b, b, b,
+    b, b, b, b, b, b, b, b,
+    ]
+    return pacman
+
+def frame_2():
+    b = black
+    y = yellow
+    pacman = [
+    b, b, y, y, y, b, b, b,
+    b, y, y, y, y, y, b, b,
+    y, y, y, y, y, b, b, b,
+    y, y, y, y, b, b, y, b,
+    y, y, y, y, y, b, b, b,
+    b, y, y, y, y, y, b, b,
+    b, b, y, y, y, b, b, b,
+    b, b, b, b, b, b, b, b,
+    ]
+    return pacman
+    
+def frame_3():
+    b = black
+    y = yellow
+    pacman = [
+    b, b, y, y, y, b, b, b,
+    b, y, y, y, y, y, b, b,
+    y, y, y, y, y, b, b, b,
+    y, y, y, y, b, y, b, b,
+    y, y, y, y, y, b, b, b,
+    b, y, y, y, y, y, b, b,
+    b, b, y, y, y, b, b, b,
+    b, b, b, b, b, b, b, b,
+    ]
+    return pacman
+
+def frame_4():
+    b = black
+    y = yellow
+    pacman = [
+    b, b, y, y, y, b, b, b,
+    b, y, y, y, y, y, b, b,
+    y, y, y, y, y, y, y, b,
+    y, y, y, y, y, b, b, b,
+    y, y, y, y, y, y, y, b,
+    b, y, y, y, y, y, b, b,
+    b, b, y, y, y, b, b, b,
+    b, b, b, b, b, b, b, b,
+    ]
+    return pacman
+    
+def frame_5():
+    b = black
+    y = yellow
+    pacman = [
+    b, b, y, y, y, b, b, b,
+    b, y, y, y, y, y, b, b,
+    y, y, y, y, y, y, y, b,
+    y, y, y, y, y, y, y, b,
+    y, y, y, y, y, y, y, b,
+    b, y, y, y, y, y, b, b,
+    b, b, y, y, y, b, b, b,
+    b, b, b, b, b, b, b, b,
+    ]
+    return pacman
+
+images = [frame_1, frame_2, frame_3, frame_4, frame_5, frame_4, frame_0]
+count = 0
+
+while True:
+  s.set_pixels(images[count % len(images)]())
+  time.sleep(0.1)
+  count += 1
+        </pre>
+    </code>
+</body>
+</html>
