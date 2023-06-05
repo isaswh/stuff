@@ -1,0 +1,94 @@
+/*variabler*/
+:root {
+    --alg-bg-farge: rgba(255, 255, 255, 0.18);
+    --alg-kant-farge: rgba(255, 255, 255, 0.8);
+}
+
+/*generell styling*/
+body {
+    background-color: var(--kop-prim-color);
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#goBack {
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    background-color: transparent;
+    color: #ffffff;
+    padding: 4px 8px 4px 8px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+}
+
+.grid-container {
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: repeat(10, 10%); 
+    grid-template-rows: repeat(6, 100px);
+    grid-template-areas: 
+        "a a a c c c c c c c"
+        "a a a c c c c c c c"
+        "b b b c c c c c c c"
+        "d d d d d d d d d d"
+        "d d d d d d d d d d"
+        "d d d d d d d d d d"
+        ;
+}
+
+.algorithm {
+    /*font*/
+    background-color: var(--alg-bg-farge);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    /*general style*/
+    border: 3px solid #ffffff;
+    border-radius: 4px;
+    margin: 2px;
+    /*placement and such*/
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    place-content: center;
+    flex-direction: column;
+}
+
+
+/*styling og grid-plassering for spesifikke algoritmer*/
+
+.clock {
+    grid-area: a;
+}
+
+.clock p {
+    font-size: 30px;
+}
+
+.clock-container {
+    background-color: transparent;
+    height: fit-content;
+    box-sizing: border-box;
+    width: 45%;
+}
+
+
+
+.color-btn {
+    grid-area: b;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+
+
+.guess-the-number {
+    grid-area: c;
+}
+
+
+
+.div4 {
+    grid-area: d;
+}
