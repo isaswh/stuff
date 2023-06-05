@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript-algoritmer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../../../../../css/variabler.css">
+    <script src="https://kit.fontawesome.com/22bf5ec5c5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <a id="goBack" href="../../konseptutvikling_og_programmering.html"><- Tilbake til konseputvikling og programmering</a>
+
+    <div class="grid-container">
+
+        <button class="algorithm color-btn" onclick="changeColor()">Skift bakgrunnsfarge</button>
+
+        <div class="algorithm clock">
+            <p>Klokken er</p>
+            <div class="clock-container">
+                <p id="digitalClock"></p>
+            </div>
+        </div>
+
+        <div class="algorithm guess-the-number">
+            <h3>Guess the number!</h3>
+            <div class="inputandbtns">
+                <input id="myInput" value="1">
+                <button id="guessButton">Guess</button>
+                <button id="restartButton">Restart</button>
+                <p id="outputText"></p>
+            </div>
+        </div>
+
+        <div class="algorithm div4">
+            <p>tihi</p>
+        </div>
+
+    </div>
+
+    <!--scripts-->    
+    <script src="js/bgfarge.js"></script>
+    <script src="js/klokke.js"></script>
+    <script src="js/gjettespill.js"></script>
+</body>
+</html>
